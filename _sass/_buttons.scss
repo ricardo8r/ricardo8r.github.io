@@ -125,10 +125,12 @@
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {
+      color: #fff !important;
       background-color: $color;
 
       &:hover {
-        background-color: mix(#000, $color, 20%);
+        color: #fff !important;
+        background-color: mix(#000, $color, 20%) !important;
       }
     }
   }
