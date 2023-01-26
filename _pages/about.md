@@ -1,7 +1,5 @@
 ---
 permalink: /
-title: "Ricardo Reyes"
-excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,11 +8,11 @@ redirect_from:
 
 {% include base_path %}
 
-Postdoctoral researcher at EPFL (École Polytechnique Fédérale de Lausanne) in the [MCSS](https://www.epfl.ch/labs/mcss/) group of Prof. Jan S. Hesthaven.  
 
-### Bio
-Ph.D. in Civil engenieering Universitat Politecnica de Catalunya
-Thesis: [Stabilized reduced order models for low speed flows]([https://iris.sissa.it/handle/20.500.11767/114329](https://upcommons.upc.edu/handle/2117/190157))  
+### About me
+  I'm a postdoctoral researcher ati EPFL in the [MCSS](https://www.epfl.ch/labs/mcss/) group of Prof. Jan S. Hesthaven. At the moment I work developing reduced basis methods for time evolving problems with applications in digital twins.
+
+I did my Ph.D. in Civil engenieering at the Universitat Politecnica de Catalunya working with [Ramon Codina](https://deca.upc.edu/en/people/ramon.codina) and [Sergio Idelsohn](https://www.cimne.com/m1898/people/directory) in model reduction for fluid flows. My thesis: [Stabilized reduced order models for low speed flows]([https://iris.sissa.it/handle/20.500.11767/114329](https://upcommons.upc.edu/handle/2117/190157))  
 
 ### Research interests
 * Reduced order models
