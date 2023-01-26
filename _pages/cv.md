@@ -16,10 +16,6 @@ Education
 
 Academic positions
 ======
-* 
-Institute of Cognitive and Brain Sciences
-University of California, Berkeley
-January 2016 — July 2018
 * Postdoctoral Researcher
   * [MCSS Chair of Computational Mathematics and Simulation Science](https://www.epfl.ch/labs/mcss/), EPFL 
   * February 2020 —
