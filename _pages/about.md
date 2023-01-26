@@ -3,10 +3,13 @@ permalink: /
 title: "Ricardo Reyes"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+
+{% include base_path %}
+
 Postdoctoral researcher at EPFL (École Polytechnique Fédérale de Lausanne) in the [MCSS](https://www.epfl.ch/labs/mcss/) group of Prof. Jan S. Hesthaven.  
 
 ### Bio
