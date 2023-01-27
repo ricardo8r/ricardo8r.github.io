@@ -25,12 +25,6 @@
           alt="">
       </div>
     {% endif %}
-    {% if post.resourceurl %}
-      <p class="archive__item-excerpt" itemprop="description"><a href="{{ post.resourceurl }}" rel="permalink">{{ post.citation }}</a>
-    {% else %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}
-    {% endif %}
-    <br>
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" rel="permalink"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
     {% endif %}
@@ -46,6 +40,12 @@
     {% if post.relatedurl %}
       <a href="{{ post.relatedurl }}" rel="permalink"><b><font size="+3">∼</font></b></a>
     {% endif %}
+    {% if post.resourceurl %}
+      <p class="archive__item-excerpt" itemprop="description"><a href="{{ post.resourceurl }}" rel="permalink">{{ post.citation }}</a>
+    {% else %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}
+    {% endif %}
     </p>
+    <br>
  </article>
 </div>
