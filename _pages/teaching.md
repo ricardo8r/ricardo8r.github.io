@@ -29,4 +29,3 @@ redirect_from:
 * Discretisation methods for PDEs. Finite element method
 * Computational tools for engineering. FEniCS and ParaView
 * Computational fluid mechanics. Incompressible Navier-Stokes equations.
-*

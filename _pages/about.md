@@ -22,4 +22,3 @@ I did my Ph.D. in Civil engenieering at the Universitat Politecnica de Catalunya
   * Fluid-structure interaction
   * Non-newtonian fluids
   * Turbulence and chaotic behaviour
-

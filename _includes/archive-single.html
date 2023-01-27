@@ -51,10 +51,10 @@
 	  {% endif %}
     {% endif %}
 
-
-
     {% if post.citation and post.paperurl %}
-      <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      <p><a href="{{ post.paperurl }}" rel="permalink"><i class="fab fa-fw ai-doi" aria-hidden="true"></i></a>
+      <a>{{ post.citation }} </a>
+      </p>
     {% elsif post.citation %}
       <p>{{ post.citation }} </p>
     {% elsif post.paperurl %}
@@ -63,3 +63,4 @@
 
   </article>
 </div>
+      <!--<p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>--!>
