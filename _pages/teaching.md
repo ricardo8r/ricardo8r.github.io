@@ -2,9 +2,9 @@
 layout: archive
 permalink: /teaching/
 author_profile: true
+redirect_from:
+  - /teaching
 ---
-
-{% include base_path %}
 
 ## Teaching at EPFL
 
@@ -20,7 +20,3 @@ author_profile: true
   Introductory class of mathematical modeling for engineering. Small introduction of ordinary and partial differential equations. Exercises with some toy problems (SIR models, Lotka–Volterra equations, the heat equation). Most of the course was to develop a small project in Matlab depending of the interest of each student.
 * Applied engineering project, TA, Fall 2011
   I supervised small industrial and research projects of undergraduate students teams. It is a lot of fun to see small projects go through the design, construction and test phases.
-
-  <!--{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-  {% endfor %}--!>
