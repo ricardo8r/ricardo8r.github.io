@@ -27,4 +27,3 @@ or <u><a href="{{author.researchgate}}">my ResearchGate</a>.</u>
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
