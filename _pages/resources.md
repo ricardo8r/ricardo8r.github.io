@@ -7,7 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
-Here I include some of the codes and other resources that I use.
+Most of my work right now happens on python and [FEniCS](https://fenicsproject.org/).
+Here are some other codes and packages that I use.
 {% for post in site.resources%}
   {% include archive-resource.html %}
 {% endfor %}
