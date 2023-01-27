@@ -8,13 +8,13 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
+
 * B.S. in Mechanical Engineering, Universidad Nacional de Colombia, 2010
 * Ph.D in Civil Engineering, Universitat Politècnica de Catalunya,, 2020 
 
-Academic positions
-======
+## Academic positions
+
 * Postdoctoral Researcher
   * [MCSS Chair of Computational Mathematics and Simulation Science](https://www.epfl.ch/labs/mcss/), EPFL 
   * February 2020 —
