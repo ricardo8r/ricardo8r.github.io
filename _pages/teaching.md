@@ -11,9 +11,9 @@ redirect_from:
 
 ## Teaching at EPFL
 
-* Parallel and high-performance computing, TA, Spring 2022.
+* Parallel and high-performance computing, TA, Fall 2022.
   Exercise session. Vectorization, MP, MPI and CUDA in the fidis and helvetios supercomputers. The final project was the paralelization of Conjugate gradient code in C using MPI and CUDA.
-* Algèbre linéaire avancée I, TA, Spring 2021.
+* Algèbre linéaire avancée I, TA, Fall 2021.
 
 ## Teaching at Universidad Nacional de Colombia
 
