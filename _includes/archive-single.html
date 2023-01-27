@@ -40,7 +40,7 @@
 
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {%if post.collection == 'publications' %}
+    {%elsif post.collection == 'publications' %}
         <p> <span style="color:black;">[{{ post.item }}]</span>    {{ post.authors }}.  <span style="color:black;">{{ post.title }}.</span>
           {% if post.pubsource == 'journal' %}
             <i><a href="{{ post.paperurl }}" rel="permalink">{{ post.venue }}</a></i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
