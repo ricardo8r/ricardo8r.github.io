@@ -37,7 +37,7 @@
     {% endif %}
 
     {% if post.collection == 'teaching' %}
-      <p>{{ post.title }}</p> <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
           {% if post.pubsource == 'journal' %}
           {% elsif post.pubsource == 'unpublished' %}

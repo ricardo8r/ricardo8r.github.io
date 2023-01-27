@@ -20,7 +20,7 @@ or <u><a href="{{author.researchgate}}">my ResearchGate</a>.</u>
   {% endif %}
 {% endfor %}
 
-## Published
+## Peer-Reviewed Journal Publications
 
 {% for post in site.publications reversed %}
   {% if post.pubsource == "journal" %}
