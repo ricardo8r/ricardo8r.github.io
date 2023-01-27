@@ -52,7 +52,7 @@
     {% endif %}
 
     {% if post.citation and post.paperurl %}
-      <p><a href="{{ post.paperurl }}" rel="permalink"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+      <p><a href="{{ post.paperurl }}" rel="permalink"><i class="ai ai-doi ai-fw" aria-hidden="true"></i></a>
       <a style="color: #3d4144; text-decoration: none;">{{ post.citation }} </a>
       </p>
     {% elsif post.citation %}
