@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-## Teaching at EPFL
+## EPFL
 
 * Parallel and high-performance computing, TA, Fall 2022.
   Exercise session. Vectorization, MP, MPI and CUDA in the fidis and helvetios supercomputers. The final project was the paralelization of Conjugate gradient code in C using MPI and CUDA.
 * Algèbre linéaire avancée I, TA, Fall 2021.
 
-## Teaching at Universidad Nacional de Colombia
+## Universidad Nacional de Colombia
 
 * Fundamentals of heat transfer, TA, Fall 2011.
   Classic heat transfer lab. Small heat conductivity experiments, natural convection measurements and test of a heat exchanger efficiency.
@@ -25,7 +25,7 @@ redirect_from:
   I supervised small industrial and research projects of undergraduate students teams. It is a lot of fun to see small projects go through the design, construction and test phases.
 
 
-## Workshops at [CIAID](https://www.ciaid.co/formaci%C3%B3n/seminarios-ciaid)
+## Workshops at [CIAID](https://www.ciaid.co/formaci%C3%B3n/seminarios-ciaid) (2021)
 * Discretisation methods for PDEs. Finite element method
 * Computational tools for engineering. FEniCS and ParaView
 * Computational fluid mechanics. Incompressible Navier-Stokes equations.
