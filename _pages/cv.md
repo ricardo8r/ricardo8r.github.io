@@ -16,6 +16,7 @@ redirect_from:
 
 * Ph.D in Civil Engineering, Universitat Politècnica de Catalunya, 2020 
 * B.S. in Mechanical Engineering, Universidad Nacional de Colombia, 2010
-* 
 
-You can download a PDF copy of my CV [here](/CV/CV.pdf).
+
+
+You can download a PDF copy of my CV [here](/files/CV.pdf).
