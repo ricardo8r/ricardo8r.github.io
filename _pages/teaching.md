@@ -17,11 +17,11 @@ redirect_from:
 
 ## Teaching at Universidad Nacional de Colombia
 
-* Fundamentals of heat transfer, TA, Spring 2011.
+* Fundamentals of heat transfer, TA, Fall 2011.
   Classic heat transfer lab. Small heat conductivity experiments, natural convection measurements and test of a heat exchanger efficiency.
-* Mathematical modeling, TA, Fall 2011.
+* Mathematical modeling, TA, Spring 2012.
   Introductory class of mathematical modeling for engineering. Small introduction of ordinary and partial differential equations. Exercises with some toy problems (SIR models, Lotka–Volterra equations, the heat equation). Most of the course was to develop a small project in Matlab depending of the interest of each student.
-* Applied engineering project, TA, Fall 2011.
+* Applied engineering project, TA, Fall 2011, Fall 2012.
   I supervised small industrial and research projects of undergraduate students teams. It is a lot of fun to see small projects go through the design, construction and test phases.
 
 
