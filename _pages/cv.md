@@ -10,7 +10,7 @@ redirect_from:
 
 ## Academic positions
 
-* Postdoctoral Researcher at EPFL. 2021-present
+* Postdoctoral Researcher at EPFL. Feb 2021 - Aug 2023
 
 ## Education
 
@@ -19,4 +19,4 @@ redirect_from:
 
 
 
-You can download a PDF copy of my CV [here](/files/CV.pdf).
+You can download a PDF copy of my CV [here](/files/Ricardo-CV.pdf).
