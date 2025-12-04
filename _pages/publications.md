@@ -15,7 +15,7 @@ or <u><a href="{{author.researchgate}}">my ResearchGate</a>.</u>
 ## Preprints & in preparation
 
 {% for post in site.publications reversed %}
-  {% if post.pubsource == "unpublished" %}
+  {% if post.pubsource == "arXiv" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
