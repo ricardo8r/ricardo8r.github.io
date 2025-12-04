@@ -12,7 +12,7 @@ or <u><a href="{{author.researchgate}}">my ResearchGate</a>.</u>
 {% endif %}
 {% include base_path %}
 
-## Preprints & in preparation
+## Preprints
 
 {% for post in site.publications reversed %}
   {% if post.pubsource == "arXiv" %}
