@@ -10,7 +10,7 @@ redirect_from:
 
 ## Academic positions
 
-* Postdoctoral Researcher at EAWAG. Jun 2024 -
+* Postdoctoral Researcher at EAWAG. Jun 2024 - Jun 2025
 * Postdoctoral Researcher at EPFL. Feb 2021 - Aug 2023
 
 ## Education
