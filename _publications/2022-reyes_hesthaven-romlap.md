@@ -1,8 +1,8 @@
 ---
-title: "Reduced order models for time-dependent problems using the Laplace transform"
+title: "The Frequency Reduced-Basis method: Reduced order models for time-dependent problems using the Laplace transform"
 collection: publications
-permalink: /publication/2022-reyes_hesthaven-romlap
+permalink: /publication/2022-reyes-romlap
 paperurl: 
-citation: 'R. Reyes, F. Henriquez, J. Hesthaven. Reduced order models for time-dependent problems using the Laplace transform. <i></i> In preparation.'
-pubsource: 'unpublished'
+citation: 'R. Reyes. The Frequency Reduced-Basis method: Reduced order models for time-dependent problems using the Laplace transform.'
+pubsource: 'arXiv'
 ---
