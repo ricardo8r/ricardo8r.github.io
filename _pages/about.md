@@ -11,15 +11,32 @@ redirect_from:
 
 ### About me
 
-I am a mechanical engineer that works developing numerical methods for time evolving problems, computational fluid dynamics and computational mechanics. At the moment I work developing reduced basis methods for time evolving problems with applications in digital twins.
+I am a mechanical engineer with a PhD in Civil Engineering. I work on numerical simulation — mainly CFD, finite element methods, and reduced-order modelling. My work focuses on making simulations faster and more useful: reduced-order models can reproduce the results of expensive simulations at a fraction of the cost, which matters when you need to explore many design variants or operating conditions.
 
-I did my Ph.D. in Civil engenieering at the Universitat Politecnica de Catalunya working in model reduction for Navier-Stokes equations. My thesis: [Stabilized reduced order models for low speed flows](https://upcommons.upc.edu/handle/2117/190157) 
+I have worked on model reduction for offshore wind turbine simulations, urban water infrastructure modelling for the city of Lausanne, and spent several years developing simulation methods. I am based in Lausanne, Switzerland, and available for consulting and project-based work.
 
-### Research interests
+I did my Ph.D. in model reduction for Navier-Stokes equations. My thesis: [Stabilized reduced order models for low speed flows](https://upcommons.upc.edu/handle/2117/190157) 
+
+### What I do
+
+<div style="display: flex; gap: 2em;">
+<div markdown="1">
 * Reduced order models
   * Parametric PDEs
   * Time-dependent PDEs
 * Computational fluid dynamics
+  * Incompressible flows / Navier-Stokes
   * Fluid-structure interaction
   * Non-newtonian fluids
-  * Turbulence and chaotic behaviour
+  * Thermomechanical problems
+* HPC and parallel computing
+</div>
+<div markdown="1">
+**Tools**
+* Python, C++, FORTRAN
+* FEniCS, PETSc, HDF5
+* ParaView, Matplotlib
+* MPI
+* Git, Docker
+</div>
+</div>
