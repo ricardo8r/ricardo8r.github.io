@@ -17,10 +17,9 @@ I have worked on model reduction for offshore wind turbine simulations, urban wa
 
 I did my Ph.D. in model reduction for Navier-Stokes equations. My thesis: [Stabilized reduced order models for low speed flows](https://upcommons.upc.edu/handle/2117/190157) 
 
-### What I do
-
 <div style="display: flex; gap: 2em;">
 <div markdown="1">
+**What I do**
 * Reduced order models
   * Parametric PDEs
   * Time-dependent PDEs

@@ -2,6 +2,7 @@
 title: "Fast flow simulations via reduced-order modelling: flow past a cylinder"
 excerpt: "Reduced-order model for incompressible flow past a cylinder at Re=1000, achieving up to 93% reduction in computation time while maintaining accuracy."
 collection: portfolio
+layout: single
 ---
 
 ## Problem
