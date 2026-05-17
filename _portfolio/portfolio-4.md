@@ -3,7 +3,6 @@ title: "Frequency Reduced-Basis method: ROM for time-dependent problems"
 excerpt: "A reduced-basis method for time-dependent PDEs using the Laplace transform, with exponential accuracy guarantees and a fully parallelisable offline stage."
 collection: portfolio
 layout: single
-date: 2026-05-08
 ---
 
 Standard reduced-order models for time-dependent problems build a basis from snapshots of the solution at successive time steps. For oscillatory or wave-like problems, this requires dense sampling over long time intervals — expensive, and still often insufficient to capture the full dynamics.
