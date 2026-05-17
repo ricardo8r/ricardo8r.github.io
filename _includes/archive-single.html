@@ -1,17 +1,14 @@
 {% include base_path %}
-
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -35,7 +32,6 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-
     {% if post.collection == 'teaching' %}
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
@@ -46,19 +42,17 @@
       </h2>
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
-          {% if post.pubsource == 'journal' %}
-          {% elsif post.pubsource == 'unpublished' %}
-	  {% endif %}
-    {% endif %}
-
+      {% if post.pubsource == 'journal' %}
+      {% elsif post.pubsource == 'unpublished' %}
+      {% endif %}
     {% elsif post.collection == 'portfolio' %}
       <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       </h2>
-    {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
     {% endif %}
-
     {% if post.citation and post.paperurl %}
       <p><a href="{{ post.paperurl }}" rel="permalink"><i class="ai ai-doi ai-fw" aria-hidden="true"></i></a>
       <a style="color: #3d4144; text-decoration: none;">{{ post.citation }} </a>
@@ -68,6 +62,5 @@
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
-
   </article>
 </div>
